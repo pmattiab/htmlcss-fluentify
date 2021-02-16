@@ -32,10 +32,16 @@ img {
     margin: 0 auto;
 }
 
-.green_button {
-    background-color: rgb(124, 187, 0);
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
     padding: 10px;
     border-radius: 5px;
+}
+
+.green_bt {
+    color: white;
+    background-color: rgb(124, 187, 0);
 }
 
 .gray_text {
@@ -109,16 +115,33 @@ nav {
     border-radius: 5px;
 }
 
-/* MAIN */
 /* teaser */
 .teaser {
+    width: 45%;
+    margin-top: 10%;
+}
+
+header h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.teaser .teaser_bt {
+    padding: 25px 20px;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+/* MAIN */
+/* main banner */
+.main_banner {
     height: 200px;
     background-color: rgb(211, 211, 211);
     text-align: center;
     position: relative;
 }
 
-.teaser .title {
+.main_banner .title {
     padding: 20px;
 }
 
@@ -128,6 +151,6 @@ nav {
     letter-spacing: -1px;
 }
 
-.teaser p {
+.main_banner p {
     font-size: 22px;
 }
