@@ -15,8 +15,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.col {
-    float: left;
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .clearfix:after {
@@ -25,9 +26,8 @@ body {
     clear: both;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+.col {
+    float: left;
 }
 
 .button {
@@ -84,42 +84,44 @@ header {
     width: 10%;
 }
 
-/* menu */
+/* menu centrale */
 .menu_cx {
     width: 55%;
     padding-left: 50px;
 }
 
+/* menu destro */
 .menu_dx {
     width: 35%;
     text-align: right;
 }
 
-/* menu nav */
+/* nav */
 nav {
     padding: 20px 0;
 }
 
-.menu {
+header .menu {
     list-style-type: none;
 }
 
-.menu li {
+header .menu li {
     display: inline-block;
-    line-height: 60px;
+    margin-left: 20px;
+    line-height: 55px;
 }
 
-.menu li a {
+header .menu a {
     font-size: 13px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 20px;
 }
 
-.menu .login {
+/* bottone login */
+header .menu .login {
     border: 1px solid white;
-    padding: 10px 35px;
+    padding: 9px 35px;
     border-radius: 5px;
 }
 
